@@ -1,201 +1,147 @@
-# 🚀 PIZZA DELIVERY APPLICATION (FULL STACK PROJECT)
+# 🌐 OIBSIP Web Development & Designing Internship
 
-This repository contains a **Full Stack Pizza Delivery Web Application** built using **React, Node.js, Express, and MongoDB**.
-The system allows users to **register, customize pizzas, place orders, and track order status**, while admins can **manage inventory and update order progress**.
+## 📌 Internship Overview
 
----
+This repository contains the projects completed during the **Oasis Infobyte (OIBSIP) Web Development and Designing Internship**.
 
-## 📌 Project Overview
+The internship focuses on building practical frontend development skills using **HTML, CSS, and JavaScript** by creating responsive and interactive web applications.
 
-The application includes **two types of users:**
-
-### 👤 User
-
-Users can register, log in securely, create custom pizzas, and place orders using an integrated payment system.
-
-### 🛠 Admin
-
-Admins can manage pizza ingredients, track inventory, monitor orders, and update order status.
+These projects demonstrate my understanding of **modern UI design, responsive layouts, and basic web interactivity**.
 
 ---
 
-## 🍕 Features
+## 🚀 Projects Included
 
-### 1️⃣ User Authentication System
+### 🔹 Task 1 – Landing Page
 
-A secure authentication system is implemented for users.
+A modern **Digital Solutions Company Landing Page** called **InnovateX**.
 
-**Features:**
+**Features**
 
-* User registration
-* Secure login authentication
-* Email verification system
-* Forgot password functionality
-* Reset password via email
-* Authorized access to user dashboard
+* Responsive navigation bar
+* Modern hero section with gradient background
+* Interactive service cards
+* About section describing the company
+* Contact form with basic validation
+* Mobile-friendly responsive layout
 
----
+**Technologies Used**
 
-### 2️⃣ User Dashboard & Pizza Customization
-
-After logging in, users can view the available pizza options and create a **custom pizza**.
-
-**Pizza Customization Flow:**
-
-* Choose **Pizza Base** from 5 options
-* Select **Sauce** from 5 options
-* Choose a **Cheese Type**
-* Add **Veggies** from multiple options
-* Optionally add **Meat toppings**
+* HTML5
+* CSS3
+* JavaScript
+* Google Fonts (Poppins)
 
 ---
 
-### 3️⃣ Payment Integration
+### 🔹 Task 2 – Personal Portfolio Website
 
-The application integrates **Razorpay Checkout (Test Mode)** for secure payments.
+A **developer portfolio website** showcasing my skills, projects, and services.
 
-**Features:**
+**Features**
 
-* Razorpay test account integration
-* Secure checkout page
-* On successful payment, the order is **placed and confirmed**
-* Order details stored in the database
+* Modern responsive portfolio layout
+* Animated typing text effect
+* Project showcase section
+* Scroll animations
+* Smooth navigation
+* Mobile responsive design
 
----
+**Technologies Used**
 
-### 4️⃣ Admin Inventory Management System
-
-The admin dashboard includes a **mini inventory management system**.
-
-**Admin can manage:**
-
-* Pizza Base stock
-* Sauce stock
-* Cheese stock
-* Veggies stock
-* Meat stock
-
-The system keeps track of ingredient availability after every order.
-
----
-
-### 5️⃣ Automatic Stock Update
-
-After a user places an order:
-
-* The required ingredients are **deducted from inventory**
-* Updated stock values are displayed in the **admin dashboard**
-
----
-
-### 6️⃣ Low Stock Email Notification
-
-The system automatically monitors inventory levels.
-
-If any ingredient goes **below the threshold value** (example: pizza base below 20):
-
-* An **email notification is sent to the admin**
-* Admin is alerted to restock ingredients
-
----
-
-### 7️⃣ Order Status Management
-
-Admins can manage the status of each order.
-
-**Order Status Flow:**
-
-* Order Received
-* In the Kitchen
-* Sent to Delivery
-
----
-
-### 8️⃣ Real-Time Order Status for Users
-
-Whenever the admin updates the order status:
-
-* The changes are **reflected instantly in the user dashboard**
-* Users can track their pizza order progress.
-
----
-
-## 🛠 Technologies Used
-
-**Frontend**
-
-* React.js
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
-**Backend**
+---
 
-* Node.js
-* Express.js
+### 🔹 Task 3 – Web Application
 
-**Database**
+An interactive **web-based application** with a clean UI and dark mode support.
 
-* MongoDB
-* Mongoose
+**Features**
 
-**Authentication**
+* Modern glassmorphism UI design
+* Interactive input fields
+* Result display section
+* Dark / Light mode toggle
+* Responsive layout
+* Smooth animations
 
-* JWT (JSON Web Token)
-* Email Verification
+**Technologies Used**
 
-**Payment Gateway**
-
-* Razorpay (Test Mode)
-
-**Other Tools**
-
-* Nodemailer (Email Notifications)
-* dotenv (Environment Variables)
+* HTML5
+* CSS3
+* JavaScript
 
 ---
 
-## ▶️ How to Run
-
-1. Install **Node.js and MongoDB**
-
-2. Install dependencies:
+## 📂 Repository Structure
 
 ```
-npm install
-```
-
-3. Start the backend server:
-
-```
-npm start
-```
-
-4. Run the React frontend:
-
-```
-npm start
-```
-
-Open the application in the browser:
-
-```
-http://localhost:3000
+OIBSIP-Web_Development_and_Designing
+│
+├── Task_1-Landing_Page
+│   ├── index.html
+│   ├── style.css
+│
+├── Task_2-Portfolio
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│
+├── Task_3-Web_App
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│
+└── README.md
 ```
 
 ---
 
-## 🎯 Project Objective
+## ⚙️ How to Run the Projects
 
-The goal of this project is to build a **complete full stack pizza ordering system** that includes:
+1. Clone or download the repository.
+2. Open the project folder.
+3. Navigate to any task folder.
+4. Open **index.html** in a web browser.
 
-* Secure authentication
-* Custom pizza builder
-* Online payment integration
-* Inventory management
-* Order tracking system
-* Automated email notifications
+No installation or server setup is required.
 
 ---
 
-#react #nodejs #mongodb #razorpay #fullstack #webdevelopment# OIBSIP Internship-Web Development and Designing 
+## 📱 Responsive Design
+
+All projects are designed to work across:
+
+* 💻 Desktop
+* 📱 Mobile
+* 📟 Tablets
+
+CSS **media queries** ensure proper layout across different screen sizes.
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this internship, I gained experience in:
+
+* Responsive Web Design
+* UI/UX Principles
+* HTML5 Semantic Structure
+* CSS3 Styling & Animations
+* JavaScript Interactivity
+
+---
+
+## 👩‍💻 Author
+
+**K. Lakshmi Kameswari**
+Web Development Intern – Oasis Infobyte
+
+---
+
+## 📄 License
+
+This repository is created for **educational and internship demonstration purposes**.
