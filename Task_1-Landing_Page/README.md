@@ -93,7 +93,7 @@ Possible enhancements for the project include:
 
 ## 👨‍💻 Author
 
-Developed by **Sai**
+Developed by **K.Lakshmi Kameswari**
 
 ---
 
