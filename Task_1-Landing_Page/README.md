@@ -94,7 +94,7 @@ Possible enhancements for the project include:
 ## 🖥 Screenshot
 
 <p align="center">
-  <img src="images/screenshot.png" width="600">
+  <img src="C:\Users\khit\Downloads\WhatsApp Image 2026-03-14 at 12.41.56 PM.jpeg" width="600">
 </p>
 ---
 
