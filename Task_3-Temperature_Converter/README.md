@@ -1,8 +1,8 @@
 Task-3: Temperature Converter
 ---
-# 🌡 Temperature Converter Web Application
+## 🌡 Temperature Converter Web Application
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 The Temperature Converter is a simple and interactive web application that allows users to convert temperature values between Celsius, Fahrenheit, and Kelvin instantly.
 
@@ -10,7 +10,7 @@ This project was developed as part of the Oasis Infobyte Web Development and Des
 
 The main objective of this project is to demonstrate JavaScript logic, user input handling, and responsive UI design using basic frontend technologies.
 
-# 🚀 Features
+## 🚀 Features
 
 Convert temperature between Celsius (°C), Fahrenheit (°F), and Kelvin (K)
 
@@ -26,7 +26,7 @@ Dark mode toggle option
 
 Mobile-friendly responsive design
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 HTML5 – Structure of the web application
 
@@ -35,15 +35,16 @@ CSS3 – Styling and layout
 JavaScript – Temperature conversion logic and interactivity
 
 Google Fonts (Poppins) – Modern typography
-
-# 📂 Project Structure
+'''
+## 📂 Project Structure
 Temperature-Converter
 │
 ├── index.html      # Main webpage
 ├── style.css       # Styling file
 ├── script.js       # Conversion logic
 └── README.md       # Project documentation
-# ⚙️ How to Run the Project
+'''
+## ⚙️ How to Run the Project
 
 Download or clone the repository.
 
@@ -54,7 +55,7 @@ or open it using any modern web browser.
 
 No server or installation required.
 
-# 📱 Responsive Design
+## 📱 Responsive Design
 
 The application is designed to work on:
 
@@ -66,7 +67,7 @@ Mobile devices
 
 CSS media queries ensure proper layout across different screen sizes.
 
-# 🎯 Future Improvements
+## 🎯 Future Improvements
 
 Possible enhancements for the project include:
 
