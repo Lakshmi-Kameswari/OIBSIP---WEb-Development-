@@ -1,90 +1,79 @@
-🌡 Temperature Converter Web App
-📌 Project Overview
+Task-3: Temperature Converter
+---
+# 🌡 Temperature Converter Web Application
 
-This project is a Temperature Converter Web Application developed as Task 3 of the Oasis Infobyte (OIBSIP) Web Development and Designing Internship.
+# 📌 Project Overview
 
-The application allows users to convert temperature values between Celsius, Fahrenheit, and Kelvin instantly using a simple and interactive user interface.
+The Temperature Converter is a simple and interactive web application that allows users to convert temperature values between Celsius, Fahrenheit, and Kelvin instantly.
 
-The goal of this project was to practice JavaScript logic, user input handling, and responsive UI design.
+This project was developed as part of the Oasis Infobyte Web Development and Designing Internship (Level 1).
 
-🚀 Features
+The main objective of this project is to demonstrate JavaScript logic, user input handling, and responsive UI design using basic frontend technologies.
 
-Convert temperature between:
+# 🚀 Features
 
-Celsius (°C)
-
-Fahrenheit (°F)
-
-Kelvin (K)
+Convert temperature between Celsius (°C), Fahrenheit (°F), and Kelvin (K)
 
 Instant conversion results
 
-Clean and modern user interface
+Simple and clean user interface
 
-Responsive design for mobile and desktop
+Modern UI with gradient background
 
-Smooth button hover effects
+Button hover effects
 
-Dark mode toggle support
+Dark mode toggle option
 
-🛠 Technologies Used
+Mobile-friendly responsive design
+
+# 🛠 Technologies Used
 
 HTML5 – Structure of the web application
 
-CSS3 – Styling, layout, and responsive design
+CSS3 – Styling and layout
 
 JavaScript – Temperature conversion logic and interactivity
 
 Google Fonts (Poppins) – Modern typography
 
-📂 Project Structure
-Task_3-Temperature_Converter
+# 📂 Project Structure
+Temperature-Converter
 │
 ├── index.html      # Main webpage
-├── style.css       # Styling and UI design
-├── script.js       # Temperature conversion logic
+├── style.css       # Styling file
+├── script.js       # Conversion logic
 └── README.md       # Project documentation
-⚙️ How to Run the Project
+# ⚙️ How to Run the Project
 
 Download or clone the repository.
 
 Open the project folder.
 
-Double-click index.html or open it in any web browser.
+Double-click index.html
+or open it using any modern web browser.
 
-No server setup or installation is required.
+No server or installation required.
 
-📱 Responsive Design
+# 📱 Responsive Design
 
-The application is designed to work smoothly on:
+The application is designed to work on:
 
-💻 Desktop computers
+Desktop computers
 
-📱 Mobile devices
+Tablets
 
-📟 Tablets
+Mobile devices
 
 CSS media queries ensure proper layout across different screen sizes.
 
-🎯 Learning Outcomes
+# 🎯 Future Improvements
 
-Through this project, I learned:
+Possible enhancements for the project include:
 
-Implementing JavaScript conversion logic
+Adding more unit conversions
 
-Handling user input and validation
+Improving UI animations
 
-Designing modern UI components
+Adding input validation alerts
 
-Creating responsive layouts using CSS
-
-
-
-
-
-
-
-
-
-
-Web Development Intern – Oasis Infobyte
+Deploying the project on GitHub Pages or Netlify
