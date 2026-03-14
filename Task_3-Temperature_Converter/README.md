@@ -1,188 +1,90 @@
-/* GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+🌡 Temperature Converter Web App
+📌 Project Overview
 
-/* RESET */
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+This project is a Temperature Converter Web Application developed as Task 3 of the Oasis Infobyte (OIBSIP) Web Development and Designing Internship.
 
-/* BODY */
+The application allows users to convert temperature values between Celsius, Fahrenheit, and Kelvin instantly using a simple and interactive user interface.
 
-body{
-background:linear-gradient(135deg,#00c6ff,#0072ff);
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-transition:0.4s ease;
-}
+The goal of this project was to practice JavaScript logic, user input handling, and responsive UI design.
 
-/* CONTAINER */
+🚀 Features
 
-.container{
-background:rgba(255,255,255,0.9);
-backdrop-filter:blur(10px);
-padding:40px;
-border-radius:15px;
-text-align:center;
-width:360px;
-box-shadow:0 15px 40px rgba(0,0,0,0.2);
-animation:fadeIn 0.8s ease;
-}
+Convert temperature between:
 
-/* TITLE */
+Celsius (°C)
 
-h1{
-margin-bottom:10px;
-font-weight:600;
-color:#333;
-}
+Fahrenheit (°F)
 
-.subtitle{
-font-size:14px;
-color:#666;
-margin-bottom:20px;
-}
+Kelvin (K)
 
-/* INPUT GROUP */
+Instant conversion results
 
-.input-group{
-display:flex;
-flex-direction:column;
-gap:15px;
-margin-bottom:20px;
-}
+Clean and modern user interface
 
-input,
-select{
-padding:12px;
-border-radius:8px;
-border:1px solid #ddd;
-font-size:14px;
-transition:0.3s;
-}
+Responsive design for mobile and desktop
 
-input:focus,
-select:focus{
-border-color:#0072ff;
-outline:none;
-box-shadow:0 0 5px rgba(0,114,255,0.3);
-}
+Smooth button hover effects
 
-/* BUTTONS */
+Dark mode toggle support
 
-.buttons{
-display:flex;
-gap:10px;
-}
+🛠 Technologies Used
 
-button{
-flex:1;
-padding:12px;
-border:none;
-border-radius:8px;
-background:linear-gradient(45deg,#0072ff,#00c6ff);
-color:white;
-font-weight:500;
-cursor:pointer;
-transition:0.3s;
-}
+HTML5 – Structure of the web application
 
-button:hover{
-transform:translateY(-2px);
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
-}
+CSS3 – Styling, layout, and responsive design
 
-/* RESET BUTTON */
+JavaScript – Temperature conversion logic and interactivity
 
-.reset{
-background:linear-gradient(45deg,#ff6a00,#ff3c00);
-}
+Google Fonts (Poppins) – Modern typography
 
-/* RESULT */
+📂 Project Structure
+Task_3-Temperature_Converter
+│
+├── index.html      # Main webpage
+├── style.css       # Styling and UI design
+├── script.js       # Temperature conversion logic
+└── README.md       # Project documentation
+⚙️ How to Run the Project
 
-.result{
-margin-top:20px;
-font-size:16px;
-font-weight:500;
-padding:12px;
-border-radius:8px;
-background:#f5f7ff;
-color:#333;
-}
+Download or clone the repository.
 
-/* TOGGLE BUTTON */
+Open the project folder.
 
-.toggle{
-margin-top:20px;
-background:#333;
-color:white;
-}
+Double-click index.html or open it in any web browser.
 
-/* FOOTER */
+No server setup or installation is required.
 
-footer{
-position:absolute;
-bottom:10px;
-text-align:center;
-width:100%;
-font-size:14px;
-color:white;
-}
+📱 Responsive Design
 
-/* DARK MODE */
+The application is designed to work smoothly on:
 
-.dark{
-background:linear-gradient(135deg,#0f0f0f,#1c1c1c);
-}
+💻 Desktop computers
 
-.dark .container{
-background:#1e1e1e;
-color:white;
-}
+📱 Mobile devices
 
-.dark input,
-.dark select{
-background:#2a2a2a;
-color:white;
-border:1px solid #444;
-}
+📟 Tablets
 
-.dark .result{
-background:#2a2a2a;
-color:white;
-}
+CSS media queries ensure proper layout across different screen sizes.
 
-/* ANIMATION */
+🎯 Learning Outcomes
 
-@keyframes fadeIn{
+Through this project, I learned:
 
-from{
-opacity:0;
-transform:scale(0.9);
-}
+Implementing JavaScript conversion logic
 
-to{
-opacity:1;
-transform:scale(1);
-}
+Handling user input and validation
 
-}
+Designing modern UI components
 
-/* RESPONSIVE */
+Creating responsive layouts using CSS
 
-@media(max-width:480px){
 
-.container{
-width:90%;
-padding:30px;
-}
 
-.buttons{
-flex-direction:column;
-}
 
-}
+
+
+
+
+
+
+Web Development Intern – Oasis Infobyte
