@@ -88,7 +88,10 @@ Possible enhancements for the project include:
 * Backend integration for contact form
 * Animations and scroll effects
 * Deployment on a hosting platform
+---
+## 🖥 Screenshot
 
+<img width="421" height="513" alt="Landing Page" src="blob:https://web.whatsapp.com/e169d48f-6564-4333-a64d-492342654452" />
 ---
 
 ## 👨‍💻 Author
